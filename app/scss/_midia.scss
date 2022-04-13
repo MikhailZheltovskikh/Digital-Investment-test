@@ -1,0 +1,233 @@
+@media (max-width: 1000px) {
+  .menu {
+    margin-right: 40px;
+  }
+  .header__top-search {
+    max-width: 200px;
+  }
+}
+@media (max-width: 850px) {
+  .menu {
+    margin-right: 10px;
+  }
+  .header__top-info {
+    margin-left: 40px;
+  }
+  .menu li + li {
+    margin-left: 20px;
+  }
+  .header__info-list li {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__top {
+    display: none;
+  }
+
+  .header__menu-inner {
+    .dropdown {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .menu__list {
+    display: none;
+  }
+  .dropdown__button {
+    color: #181a31;
+    opacity: 0.5;
+  }
+  .menu__btn-inner {
+    display: flex;
+  }
+  .header__menu-inner {
+    position: relative;
+  }
+  .lock {
+    //  position: absolute;
+    //  background-color: rgba(24, 26, 49, 0.1);
+    //  top: 0;
+    //  right: 0;
+    //  bottom: 0;
+    //  left: 0;
+    //  z-index: 1;
+    overflow: hidden;
+  }
+  .header__menu {
+    position: relative;
+    z-index: 3;
+  }
+  .mibile__menu-wrapper.active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 26, 49, 0.1);
+    z-index: 1;
+  }
+  .mibile__menu.active {
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 60px;
+    display: block;
+    width: 300px;
+    padding: 24px 24px 32px;
+    background-color: #fff;
+    box-shadow: 0px 60px 96px rgba(0, 0, 0, 0.00719002), 0px 30.0293px 48.0469px rgba(0, 0, 0, 0.0104523), 0px 18.0882px 28.9412px rgba(0, 0, 0, 0.0128732), 0px 11.5919px 18.547px rgba(0, 0, 0, 0.015),
+      0px 7.51293px 12.0207px rgba(0, 0, 0, 0.0171268), 0px 4.72931px 7.56689px rgba(0, 0, 0, 0.0195477), 0px 2.71728px 4.34765px rgba(0, 0, 0, 0.02281), 0px 1.19595px 1.91351px rgba(0, 0, 0, 0.03);
+    .mibile__menu-top {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .mibile__top-title {
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 16px;
+    }
+    .mibile__top-language {
+      display: none;
+    }
+    .mibile__top-search {
+      width: 100%;
+      margin-bottom: 24px;
+      position: relative;
+      input {
+        background: rgba(170, 177, 183, 0.1);
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 30px;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        line-height: 20px;
+        color: #181a31;
+        opacity: 0.5;
+        font-size: 14px;
+        &::placeholder {
+          font-size: 14px;
+          color: #181a31;
+          opacity: 0.5;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        position: absolute;
+        border: none;
+        background-color: transparent;
+        top: 1px;
+        right: 7px;
+        cursor: pointer;
+        path {
+          stroke: #181a31;
+        }
+      }
+    }
+    .mibile__menu-list {
+      border-top: 1px solid #d2d9df;
+      padding-top: 16px;
+      .menu__list-hotel {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      li + li {
+        margin-top: 28px;
+      }
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        color: #181a31;
+        &:hover {
+          color: #0081e1;
+        }
+      }
+      .menu__list-hotel:hover .menu__hotel {
+        display: block;
+        position: inherit;
+        transform: translate(0, 0);
+        z-index: 1;
+        opacity: 1;
+        width: 100%;
+        background: transparent;
+        border-radius: none;
+        padding: 0;
+        text-align: inherit;
+        filter: none;
+      }
+      .menu__list-hotel:hover .menu__hotel li {
+        margin-left: 0;
+        padding: 0;
+        padding-left: 17px;
+        margin-top: 28px;
+      }
+      .menu__list-hotel:hover .menu__hotel li:hover {
+        background: transparent;
+      }
+    }
+    .menu__link-hotel {
+      span {
+        background-image: url(../images/arr.svg);
+        width: 5px;
+        height: 5px;
+        top: 9px;
+        right: 12px;
+      }
+    }
+    .mibile__menu-bottom {
+      display: none;
+    }
+  }
+}
+@media (max-width: 470px) {
+  .header__menu-inner .dropdown {
+    display: none;
+  }
+  .header__menu-connection {
+    display: none;
+  }
+  .mibile__menu.active .mibile__top-language {
+    display: block;
+  }
+  .mibile__menu.active {
+    width: 100%;
+  }
+  .mibile__menu.active .mibile__top-search {
+    width: 156px;
+  }
+  .mibile__menu.active .mibile__top-search,
+  .mibile__menu.active .mibile__top-title {
+    margin-bottom: 0;
+  }
+  .mibile__menu.active .mibile__menu-top {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mibile__menu.active .mibile__menu-list {
+    border-top: none;
+    margin-bottom: 27px;
+  }
+  .mibile__menu.active .mibile__menu-bottom {
+    display: block;
+    padding-top: 16px;
+    border-top: 1px solid #d2d9df;
+  }
+  .header__connection-phone {
+    color: #008ef8;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    &:hover{
+       color: #181a31;
+    }
+  }
+  .header__menu-basket p{
+     display: none;
+  }
+}

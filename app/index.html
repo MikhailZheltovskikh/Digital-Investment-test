@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__top-language">
+              <div class="dropdown">
+                <button class="dropdown__button">RU</button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="ru"><button>RU</button></li>
+                  <li class="dropdown__list-item" data-value="en"><button>EN</button></li>
+                </ul>
+                <input type="text" name="select-category" value="" class="dropdown__input-hidden" />
+              </div>
+            </div>
+            <div class="header__top-info">
+              <ul class="header__info-list">
+                <li class="header__info-link"><a href="#">Новости и блог</a></li>
+                <li class="header__info-link"><a href="#">Оплата и доставка</a></li>
+                <li class="header__info-link"><a href="#">Контакты</a></li>
+                <li class="header__info-link"><a href="#">Вакансии</a></li>
+              </ul>
+            </div>
+            <div class="header__top-search">
+              <form>
+                <input type="text" placeholder="Поиск..." />
+                <button type="submit">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                      <path
+                        d="M6.41667 11.0833C8.994 11.0833 11.0833 8.994 11.0833 6.41667C11.0833 3.83934 8.994 1.75 6.41667 1.75C3.83934 1.75 1.75 3.83934 1.75 6.41667C1.75 8.994 3.83934 11.0833 6.41667 11.0833Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path d="M12.25 12.25L9.71252 9.71249" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="container">
+          <div class="header__menu-inner">
+            <div class="dropdown">
+              <button class="dropdown__button">RU</button>
+              <ul class="dropdown__list">
+                <li class="dropdown__list-item" data-value="ru"><button>RU</button></li>
+                <li class="dropdown__list-item" data-value="en"><button>EN</button></li>
+              </ul>
+              <input type="text" name="select-category" value="" class="dropdown__input-hidden" />
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-link">
+                  <a href="#">Каталог</a>
+                </li>
+                <li class="menu__list-link menu__list-hotel">
+                  <a class="menu__link-hotel" href="#">
+                    Майнинг отель
+                    <span></span>
+                  </a>
+                  <div class="menu__hotel">
+                    <ul class="menu__hotel-list">
+                      <li class="menu__hotel-link">
+                        <a href="#">Калининская АЭС</a>
+                      </li>
+                      <li class="menu__hotel-link">
+                        <a href="#">ПАО “Тулачермет”</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__list-link">
+                  <a href="#">Лизинг</a>
+                </li>
+                <li class="menu__list-link">
+                  <a href="#">О компании</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__menu-box">
+              <div class="header__menu-connection">
+                <a class="header__connection-phone" href="tel:+7 (499) 877-41-45">+7 (499) 877-41-45</a>
+                <div class="header__connection-box">
+                  <a class="header__connection-item telegram" href="#">
+                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M6.27812 9.12037L6.01345 12.843C6.39212 12.843 6.55612 12.6804 6.75278 12.485L8.52812 10.7884L12.2068 13.4824C12.8815 13.8584 13.3568 13.6604 13.5388 12.8617L15.9535 1.54703L15.9541 1.54637C16.1681 0.549034 15.5935 0.159034 14.9361 0.403701L0.742785 5.8377C-0.225881 6.2137 -0.211215 6.7537 0.578119 6.99837L4.20678 8.12703L12.6355 2.85303C13.0321 2.59037 13.3928 2.7357 13.0961 2.99837L6.27812 9.12037Z"
+                        fill="#181A31"
+                      />
+                    </svg>
+                  </a>
+                  <a class="header__connection-item whatsupp" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.3069 2.67206C11.9036 1.26709 10.0373 0.493011 8.04904 0.492188C3.95206 0.492188 0.617706 3.82645 0.616058 7.92453C0.615509 9.23456 0.957733 10.5134 1.60822 11.6406L0.553711 15.4922L4.49405 14.4586C5.57977 15.0508 6.80209 15.3629 8.04602 15.3633H8.04913C12.1457 15.3633 15.4804 12.0287 15.4819 7.93048C15.4828 5.94434 14.7103 4.07693 13.3069 2.67206ZM8.04904 14.108H8.04648C6.93796 14.1075 5.85077 13.8096 4.9021 13.2469L4.67661 13.1129L2.33835 13.7263L2.96246 11.4466L2.81552 11.2128C2.19708 10.2292 1.87051 9.09228 1.87106 7.92499C1.87234 4.51877 4.64383 1.74756 8.05151 1.74756C9.70166 1.74811 11.2528 2.39154 12.4192 3.5593C13.5856 4.72705 14.2276 6.27924 14.227 7.93002C14.2256 11.3365 11.4543 14.108 8.04904 14.108ZM11.4378 9.48102C11.2521 9.388 10.339 8.93884 10.1687 8.87677C9.99857 8.81479 9.8746 8.78393 9.75092 8.96979C9.62704 9.15564 9.27118 9.57403 9.16278 9.69791C9.05438 9.82187 8.94617 9.83743 8.76041 9.74441C8.57465 9.65149 7.97626 9.45529 7.26682 8.82257C6.71475 8.33011 6.34204 7.72192 6.23364 7.53607C6.12543 7.35004 6.23273 7.25922 6.31512 7.15704C6.51617 6.90738 6.7175 6.64563 6.77939 6.52176C6.84137 6.3978 6.81033 6.28931 6.76382 6.19638C6.7175 6.10345 6.34607 5.1893 6.19135 4.81732C6.04047 4.45532 5.88748 4.50421 5.77341 4.49853C5.66519 4.49313 5.54132 4.49203 5.41745 4.49203C5.29367 4.49203 5.09244 4.53845 4.92215 4.72449C4.75195 4.91043 4.27222 5.35968 4.27222 6.27383C4.27222 7.18799 4.93771 8.07111 5.03055 8.19507C5.12338 8.31903 6.34021 10.1949 8.20322 10.9993C8.64633 11.1909 8.99222 11.305 9.26202 11.3906C9.70697 11.532 10.1117 11.512 10.4318 11.4642C10.7887 11.4109 11.5305 11.0149 11.6854 10.5811C11.8401 10.1472 11.8401 9.77545 11.7936 9.69791C11.7473 9.62045 11.6234 9.57403 11.4378 9.48102Z"
+                          fill="#181A31"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+                <a class="header__connection-item" href="#"> Заказать звонок </a>
+              </div>
+              <a class="header__menu-basket" href="#">
+                <div class="header__menu-basket-icon">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6 1.5C5.05573 1.5 4.16656 1.94458 3.6 2.7L2.85 3.7C2.46053 4.21929 2.25 4.85089 2.25 5.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V5.5C15.75 4.85089 15.5395 4.21929 15.15 3.7L14.4 2.7C13.8334 1.94458 12.9443 1.5 12 1.5H6Z"
+                      fill="#0078D1"
+                    />
+                    <path d="M2.25 4.5H15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>2</span>
+                </div>
+                <p>Корзина</p>
+              </a>
+              <div class="menu__btn-inner">
+                <div class="menu__btn">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mibile__menu-wrapper">
+         <div class="mibile__menu">
+            <div class="mibile__menu-top">
+               <div class="mibile__top-title">Меню</div>
+               <div class="mibile__top-language">
+                  <div class="dropdown">
+                  <button class="dropdown__button">RU</button>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" data-value="ru"><button>RU</button></li>
+                    <li class="dropdown__list-item" data-value="en"><button>EN</button></li>
+                  </ul>
+                  <input type="text" name="select-category" value="" class="dropdown__input-hidden" >
+                </div></div>
+               <div class="mibile__top-search">
+                  <form>
+                     <input type="text" placeholder="Поиск..." />
+                     <button type="submit">
+                       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <g opacity="0.5">
+                           <path
+                             d="M6.41667 11.0833C8.994 11.0833 11.0833 8.994 11.0833 6.41667C11.0833 3.83934 8.994 1.75 6.41667 1.75C3.83934 1.75 1.75 3.83934 1.75 6.41667C1.75 8.994 3.83934 11.0833 6.41667 11.0833Z"
+                             stroke="white"
+                             stroke-linecap="round"
+                             stroke-linejoin="round"
+                           />
+                           <path d="M12.25 12.25L9.71252 9.71249" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                         </g>
+                       </svg>
+                     </button>
+                   </form>
+               </div>
+            </div>
+            <ul class="mibile__menu-list">
+               <li class="menu__list-link">
+                  <a href="#">Каталог</a>
+                </li>
+                <li class="menu__list-link menu__list-hotel">
+                  <a class="menu__link-hotel" href="#">
+                    Майнинг отель
+                    <span></span>
+                  </a>
+                  <div class="menu__hotel">
+                    <ul class="menu__hotel-list">
+                      <li class="menu__hotel-link">
+                        <a href="#">Калининская АЭС</a>
+                      </li>
+                      <li class="menu__hotel-link">
+                        <a href="#">ПАО “Тулачермет”</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__list-link">
+                  <a href="#">Лизинг</a>
+                </li>
+                <li class="menu__list-link">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="header__info-link"><a href="#">Новости и блог</a></li>
+                <li class="header__info-link"><a href="#">Оплата и доставка</a></li>
+                <li class="header__info-link"><a href="#">Контакты</a></li>
+                <li class="header__info-link"><a href="#">Вакансии</a></li>
+            </ul>
+            <div class="mibile__menu-bottom">
+
+               <div class="header__connection-box">
+                  <a class="header__connection-phone" href="tel:+7 (499) 877-41-45">+7 (499) 877-41-45</a>
+                 <a class="header__connection-item telegram" href="#">
+                   <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                       d="M6.27812 9.12037L6.01345 12.843C6.39212 12.843 6.55612 12.6804 6.75278 12.485L8.52812 10.7884L12.2068 13.4824C12.8815 13.8584 13.3568 13.6604 13.5388 12.8617L15.9535 1.54703L15.9541 1.54637C16.1681 0.549034 15.5935 0.159034 14.9361 0.403701L0.742785 5.8377C-0.225881 6.2137 -0.211215 6.7537 0.578119 6.99837L4.20678 8.12703L12.6355 2.85303C13.0321 2.59037 13.3928 2.7357 13.0961 2.99837L6.27812 9.12037Z"
+                       fill="#181A31"
+                     />
+                   </svg>
+                 </a>
+                 <a class="header__connection-item whatsupp" href="#">
+                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g opacity="0.5">
+                       <path
+                         fill-rule="evenodd"
+                         clip-rule="evenodd"
+                         d="M13.3069 2.67206C11.9036 1.26709 10.0373 0.493011 8.04904 0.492188C3.95206 0.492188 0.617706 3.82645 0.616058 7.92453C0.615509 9.23456 0.957733 10.5134 1.60822 11.6406L0.553711 15.4922L4.49405 14.4586C5.57977 15.0508 6.80209 15.3629 8.04602 15.3633H8.04913C12.1457 15.3633 15.4804 12.0287 15.4819 7.93048C15.4828 5.94434 14.7103 4.07693 13.3069 2.67206ZM8.04904 14.108H8.04648C6.93796 14.1075 5.85077 13.8096 4.9021 13.2469L4.67661 13.1129L2.33835 13.7263L2.96246 11.4466L2.81552 11.2128C2.19708 10.2292 1.87051 9.09228 1.87106 7.92499C1.87234 4.51877 4.64383 1.74756 8.05151 1.74756C9.70166 1.74811 11.2528 2.39154 12.4192 3.5593C13.5856 4.72705 14.2276 6.27924 14.227 7.93002C14.2256 11.3365 11.4543 14.108 8.04904 14.108ZM11.4378 9.48102C11.2521 9.388 10.339 8.93884 10.1687 8.87677C9.99857 8.81479 9.8746 8.78393 9.75092 8.96979C9.62704 9.15564 9.27118 9.57403 9.16278 9.69791C9.05438 9.82187 8.94617 9.83743 8.76041 9.74441C8.57465 9.65149 7.97626 9.45529 7.26682 8.82257C6.71475 8.33011 6.34204 7.72192 6.23364 7.53607C6.12543 7.35004 6.23273 7.25922 6.31512 7.15704C6.51617 6.90738 6.7175 6.64563 6.77939 6.52176C6.84137 6.3978 6.81033 6.28931 6.76382 6.19638C6.7175 6.10345 6.34607 5.1893 6.19135 4.81732C6.04047 4.45532 5.88748 4.50421 5.77341 4.49853C5.66519 4.49313 5.54132 4.49203 5.41745 4.49203C5.29367 4.49203 5.09244 4.53845 4.92215 4.72449C4.75195 4.91043 4.27222 5.35968 4.27222 6.27383C4.27222 7.18799 4.93771 8.07111 5.03055 8.19507C5.12338 8.31903 6.34021 10.1949 8.20322 10.9993C8.64633 11.1909 8.99222 11.305 9.26202 11.3906C9.70697 11.532 10.1117 11.512 10.4318 11.4642C10.7887 11.4109 11.5305 11.0149 11.6854 10.5811C11.8401 10.1472 11.8401 9.77545 11.7936 9.69791C11.7473 9.62045 11.6234 9.57403 11.4378 9.48102Z"
+                         fill="#181A31"
+                       />
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+               <a class="header__connection-item" href="#"> Заказать звонок </a>
+            </div>
+         </div>
+      </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
